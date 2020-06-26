@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/guso/github/phdthesis/cover'
+let g:netrw_dirhist_6='/home/guso/.config'
+let g:netrw_dirhist_5='/home/guso/.config/ncmpcpp'
+let g:netrw_dirhist_4='/home/guso/.config/bspwm'
+let g:netrw_dirhist_3='/home/guso/.config/panel'
+let g:netrw_dirhist_2='/home/guso/.config/bspwm'
+let g:netrw_dirhist_1='/home/guso/.config'
