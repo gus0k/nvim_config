@@ -1,9 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/guso/github/thesis_phd/images'
+let g:netrw_dirhist_1='/home/guso/github/thesis_phd/chapters'
+let g:netrw_dirhist_0='/home/guso/github/benchmark_eenergy20_tex/sgc20'
+let g:netrw_dirhist_9='/home/guso/github/coopmarkte_cdc20_tex'
+let g:netrw_dirhist_8='/home/guso/github/coopbat_tex'
 let g:netrw_dirhist_7='/home/guso/github/phdthesis/cover'
 let g:netrw_dirhist_6='/home/guso/.config'
 let g:netrw_dirhist_5='/home/guso/.config/ncmpcpp'
 let g:netrw_dirhist_4='/home/guso/.config/bspwm'
 let g:netrw_dirhist_3='/home/guso/.config/panel'
-let g:netrw_dirhist_2='/home/guso/.config/bspwm'
-let g:netrw_dirhist_1='/home/guso/.config'

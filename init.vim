@@ -1,12 +1,13 @@
 call plug#begin('~/.vim/plugged')
-Plug 'dylanaraps/wal.vim'
 Plug 'tpope/vim-dispatch'
-
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
-colorscheme wal
 
-filetype plugin indent on
+"filetype plugin indent on
+filetype on
+
 syntax enable
 
 set encoding=utf-8
@@ -38,6 +39,14 @@ set clipboard+=unnamedplus
 
 ""  Mappings
 
+nnoremap j gj
+nnoremap k gk
+vnoremap j gj
+vnoremap k gk
+
+nnoremap <F2> :Copen<CR>
+inoremap <F2> :Copen<CR>
+
 " Jump over delimiter
 inoremap <S-Tab> <esc>la
 
@@ -52,11 +61,13 @@ inoremap <silent> ,o <C-x><C-o>
 inoremap <silent> ,t <C-x><C-]>
 inoremap <silent> ,u <C-x><C-u>
 
+let g:tex_flavor = "latex"
 
 function! SourceIfExists(file)
   if filereadable(expand(a:file))
     exe 'source' a:file
   endif
 endfunction
+
 
 call SourceIfExists(".localvim")
