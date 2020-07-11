@@ -50,6 +50,9 @@ inoremap <F2> :Copen<CR>
 " Jump over delimiter
 inoremap <S-Tab> <esc>la
 
+" Fix the last mistake while typing
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+
 " Faster autocompletition
 set completeopt+=noinsert
 "
